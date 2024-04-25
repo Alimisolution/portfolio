@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.hero{
+      @apply transform;
+      transform: translate(-50%%, -50%);
+    }
