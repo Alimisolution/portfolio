@@ -1,6 +1,6 @@
 function Skills(){
     return(
-        <div className="px-4 md:py-24 py-14 text-center text-white md:mt-0 mt-20">
+        <div className="px-4 md:py-24 pt-10 text-center text-white md:mt-0 mt-20" id="skills">
             <div className="max-w-3xl mx-auto">
             <h1 className="md:text-5xl text-4xl mb-5 font-semibold">Skills</h1>
             <div className="grid xl:grid-cols-6 md:grid-cols-5 grid-cols-3 items-center justify-center gap-20 md:mt-20 mt-12 px-4">

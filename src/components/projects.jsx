@@ -1,6 +1,6 @@
 function Projects(){
     return(
-        <div className="px-4 md:py-24 py-14 text-center bg-white text-slate-800 md:mt-0 mt-56">
+        <div className="px-4 md:py-24 py-28 text-center bg-white text-slate-800 md:mt-0 mt-56" id="projects">
             <div className="max-w-3xl mx-auto">
             <h1 className="md:text-5xl text-4xl mb-10 font-semibold">Projects </h1>
            <div className="grid md:grid-cols-2 lg:grid-cols gap-14 mt-20">

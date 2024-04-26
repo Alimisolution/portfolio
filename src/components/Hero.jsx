@@ -1,6 +1,6 @@
 function Hero() {
     return (
-     <div className="hero lg:grid grid-cols-2 items-center mt-28 md:mt-10 justify-center w-[100%] h-[100vh] gap-10 text-white px-4 md:px-24">
+     <div className="hero lg:grid grid-cols-2 items-center mt-28 md:mt-10 justify-center w-[100%] h-[100vh] gap-10 text-white px-4 md:px-24 pt-10" id="home">
         <div className="mx-auto text-center md:text-left">
             <p className="md:text-xl">I'm Alimi AbdulRosheed (Alimisolution)</p>
             <h1 className="font-bold text-4xl md:text-7xl mt-5">Software Engineer</h1>
