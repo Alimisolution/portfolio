@@ -1,8 +1,12 @@
-
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
+AOS.init();
 import {FaGithub, FaTwitter, FaLinkedin} from 'react-icons/fa'
 function Contact(){
     return(
-        <div className="px-4 md:py-24 py-20 text-center bg-slate-800 text-white md:mt-0" id="contact">
+        <div className="px-4 md:py-24 py-20 text-center bg-slate-800 text-white md:mt-0" id="contact" data-aos="fade-up"
+        data-aos-duration="5000">
             <div className="max-w-3xl mx-auto">
             <h1 className="md:text-5xl text-4xl mb-10 font-semibold">Contact Me</h1>
            <div className="flex justify-center items-center gap-10">
