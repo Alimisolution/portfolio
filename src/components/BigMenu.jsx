@@ -13,7 +13,7 @@ function BigMenu() {
                 <a href="#contact">Contact</a>
             </div>
             <div className="space-y-1 border-2 border-blue-300 py-2 sm:px-8 px-4 rounded-2xl">
-               <a href="whatsapp://send?phone=+918080755931">Chat Me</a>
+               <a href="whatsapp://send?phone=+2348080755931">Chat Me</a>
             </div>
          
         </nav>
