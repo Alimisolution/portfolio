@@ -12,7 +12,7 @@ function Projects(){
                     {ProjectsData.map(pro => (
                           <div className="space-y-3" key={pro.id}>
                         <img src={pro.image} alt={pro.name} />
-                        <p className="font-semibold text-lg md:text-xl">{pro.name}</p>
+                        <p className="font-semibold text-xl md:text-2xl">{pro.name}</p>
                         <div className="flex justify-center items-center gap-4">
                             <p className="text-white py-3 px-5 rounded-xl bg-slate-800">{pro.code}</p>
                             <p><a className="mt-5 font-semibold text-lg border-4 py-2 px-5 rounded-xl border-blue-300 cursor-point " href={pro.link}>{pro.status}</a></p>
