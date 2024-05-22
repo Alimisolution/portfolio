@@ -18,7 +18,7 @@ function Hero() {
             </div>
         </div>
         <div className="my-14 md:py-12 border-8 p-3 border-blue-300">
-            <img src="/img/me.jpeg" alt="me" className="md:w-[500px] h-[500px] w-[100%]  object-cover text-center mx-auto"/>
+            <img src="/img/Me.jpeg" alt="me" className="md:w-[500px] h-[500px] w-[100%]  object-cover text-center mx-auto"/>
             
         </div>
      </div>
