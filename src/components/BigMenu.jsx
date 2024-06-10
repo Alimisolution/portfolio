@@ -13,7 +13,7 @@ function BigMenu() {
                 <a href="#contact">Contact</a>
             </div>
             <div className="space-y-1 border-2 border-blue-300 py-2 sm:px-8 px-4 rounded-2xl">
-               <a href="mailto:alimirosheed5000@gmail.com">Mail Me</a>
+               <a href="mailto:alimisolution1@gmail.com">Mail Me</a>
             </div>
          
         </nav>
