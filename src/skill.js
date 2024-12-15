@@ -6,6 +6,8 @@ const  Skills = [
     {id: 5, image: "/img/Bootstrap_logo.svg"},
     {id: 6, image: "/img/Tailwind_CSS_Logo.svg"},
     {id: 7, image: "/img/React-logo.svg"},
+    {id: 7, image: "/img/astro.png"},
+    {id: 7, image: "/img/next.jpg"},
     {id: 8, image: "/img/nodejs-svgrepo-com.svg"},
     {id: 9, image: "/img/express-svgrepo-com.svg"},
     {id: 10, image: "/img/mongodb-svgrepo-com.svg"},

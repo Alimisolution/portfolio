@@ -10,8 +10,8 @@ function About(){
             <div className="max-w-3xl mx-auto">
             <h1 className="md:text-5xl text-4xl mb-10 font-semibold">About Me</h1>
             <p className="text-lg">My name is Alimi AbdulRosheed (Alimisolution), i'm a Software Engineer, Mern Stack and Full-Stack 
-            javascript developer, having 3 years of experience in front-end and 1 year of experience in backend, the technologies i use are Html, Css, 
-            Javascript, Bootstrap, Tailwindcss, ReactJS, ExpressJS, MongoDB, MySql, i design fully functioning and responsive website 
+            javascript developer, having 4 years of experience in front-end and 1 year of experience in backend, the technologies i use are Html, Css, 
+            Javascript, Bootstrap, Tailwindcss, ReactJS, AstroJS, NextJS, ExpressJS, MongoDB, PostgreSQL, i design fully functioning and responsive website 
             with my skills, i am 
             available for any opportunity and promise to give it my best</p>
             </div>
