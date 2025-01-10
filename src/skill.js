@@ -11,7 +11,6 @@ const  Skills = [
     {id: 8, image: "/img/nodejs-svgrepo-com.svg"},
     {id: 9, image: "/img/express-svgrepo-com.svg"},
     {id: 10, image: "/img/mongodb-svgrepo-com.svg"},
-    {id: 11, image: "/img/mysql-logo-svgrepo-com.svg"},
     {id: 12, image: "/img/postman-icon-svgrepo-com.svg"},
     {id: 13, image: "/img/Git-logo.svg"},
 ]

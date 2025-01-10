@@ -1,25 +1,25 @@
+import { motion } from "motion/react"
 import  Typing from './Typing'
 function Hero() {
     const text2 = Typing('Software Engineer')
     const text3 = Typing("Full-Stack and Mern-Stack Developer")
     return (
-     <div className="hero lg:grid grid-cols-2 items-center mt-28 md:mt-10 justify-center w-[100%] h-[100vh] gap-10 text-white px-4 md:px-24 pt-10" id="home">
-        <div className="mx-auto text-center md:text-left">
-            <p className="md:text-xl">I'm Alimi AbdulRosheed (Alimisolution)</p>
-            <h1 className="font-bold text-4xl md:text-7xl mt-5">{text2}</h1>
-            <h1 className="font-bold text-lg md:text-2xl mb-10 mt-5">{text3}</h1>
-              <div className="space-y-1 flex items-center gap-5 justify-center md:justify-start">
-              <a href="/img/MY-RESUME.pdf" download className="border-2 border-blue-300 py-3 md:px-12 px-5 rounded-2xl text-sm ">Download My Resume</a>
-               <div className="space-y-1 border-2 border-blue-300 py-2 sm:px-8 px-4 rounded-2xl">
-              <a href="whatsapp://send?phone=+2348080755931">Hire Me</a>
-            </div>
-              
-             
-            </div>
-        </div>
-        <div className="my-14 md:py-12 border-8 p-3 border-blue-300">
-            <img src="/img/Me.jpeg" alt="me" className="md:w-[500px] h-[500px] w-[100%]  object-cover text-center mx-auto"/>
+     <div className="text-center hero flex flex-col justify-center items-center w-[100%] h-[100vh] gap-4 px-4 my-12" id="home">
+         <motion.div className="my-8" initial={{scale:0}} whileInView={{scale:1}} transition={{duration:1, type: "spring", stiffness: 100}}>
+            <img src="/img/Me.jpeg" alt="me" className=" h-[170px] w-[170px] sm:h-[150px] sm:w-[150px] rounded-full  object-cover text-center mx-auto"/>
             
+        </motion.div>
+
+        <div className="mx-auto md:text-left">
+            <motion.p initial={{opacity:0, y: -20}} whileInView={{opacity:1, y:0}} transition={{duration: 0.5, delay: 0.4}} className="md:text-xl text-center">I'm Alimi AbdulRosheed (Alimisolution)</motion.p>
+            <h1 className="font-bold text-4xl md:text-7xl mt-5 text-center">{text2}</h1>
+            <h1 className="font-bold text-lg md:text-2xl mb-10 mt-5 text-center">{text3}</h1>
+                <div className="space-y-1 flex gap-5 justify-center">
+                    <motion.a initial={{opacity:0, x: -10}} whileInView={{opacity:1, x:0}} transition={{duration: 1, delay: 0.5}} href="/img/MY-RESUME.pdf" download className="bg-black text-white py-3 md:px-12 px-5 rounded-2xl text-sm ">My Resume</motion.a>
+                <div className="space-y-1 border border-black py-2 sm:px-8 px-4 rounded-2xl">
+                <motion.a initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration: 0.8, delay: 0.8}} href="whatsapp://send?phone=+2348080755931">Hire Me</motion.a>
+            </div>
+            </div>
         </div>
      </div>
     );
