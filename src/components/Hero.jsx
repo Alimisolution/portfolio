@@ -4,9 +4,9 @@ function Hero() {
     const text2 = Typing('Software Engineer')
     const text3 = Typing("Full-Stack and Mern-Stack Developer")
     return (
-     <div className="text-center hero flex flex-col justify-center items-center w-[100%] h-[100vh] gap-4 px-4 my-12" id="home">
+     <div className="text-center hero flex flex-col justify-center items-center w-[100%] h-[100vh] gap-4 px-4 sm:mt-12 mt-6" id="home">
          <motion.div className="my-8" initial={{scale:0}} whileInView={{scale:1}} transition={{duration:1, type: "spring", stiffness: 100}}>
-            <img src="/img/Me.jpeg" alt="me" className=" h-[170px] w-[170px] sm:h-[150px] sm:w-[150px] rounded-full  object-cover text-center mx-auto"/>
+            <img src="/img/Me.jpeg" alt="me" className=" h-[200px] w-[200px] sm:h-[150px] sm:w-[150px] rounded-full  object-cover text-center mx-auto"/>
             
         </motion.div>
 

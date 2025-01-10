@@ -5,8 +5,3 @@
 html{
   scroll-behavior: smooth
 }
-
-.hero{
-      @apply transform;
-      transform: translate(-50%%, -50%);
-    }
