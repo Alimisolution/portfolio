@@ -7,7 +7,7 @@ import { IoIosContact } from "react-icons/io";
 function MobileMneu() {
     return (
         <nav className="bg-slate-900 py-6 px-2 flex items-center justify-center md:hidden text-sm font-bold text-white fixed bottom-0 z-20 left-0 right-0">
-            <div className="flex gap-6 items-center">
+            <div className="flex gap-8 items-center">
                 <a href="#home" className='font-bold text-sm flex flex-col items-center gap-1' >
                     <FaHome/>
                     <small className='text-xs'>Home</small>
