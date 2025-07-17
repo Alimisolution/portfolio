@@ -3,7 +3,7 @@ import { motion } from 'motion/react';
 
 function Projects(){
     return(
-        <div className="px-4 md:py-24 py-28 text-center bg-white text-slate-800 md:mt-0 mt-56" id="projects">
+        <div className="px-4 md:py-24 pb-24 pt-12 text-center bg-white text-slate-800 md:mt-0" id="projects">
             <div className="max-w-3xl mx-auto">
                 <motion.h1 initial={{opacity:0, y: -20}} whileInView={{opacity:1, y:0}} transition={{duration: 0.5, delay: 0.5}} className="md:text-5xl text-4xl mb-10 font-semibold">Projects </motion.h1>
                 <div className="grid md:grid-cols-2 lg:grid-cols gap-20 mt-20">
