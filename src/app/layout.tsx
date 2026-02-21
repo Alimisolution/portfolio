@@ -1,0 +1,22 @@
+import type { Metadata } from 'next'
+import { Inter } from 'next/font/google'
+import './globals.css'
+
+const inter = Inter({ subsets: ['latin'] })
+
+export const metadata: Metadata = {
+  title: 'Alimi AbdulRosheed (Alimisolution) - Software Developer',
+  description: 'Professional Full Stack Developer specializing in React, Next.js, Node.js, Express.js, Typescript and mobile app development using Expo',
+}
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
+  return (
+    <html lang="en">
+      <body className={inter.className}>{children}</body>
+    </html>
+  )
+}
