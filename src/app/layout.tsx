@@ -5,8 +5,13 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Alimi AbdulRosheed (Alimisolution) - Software Developer',
+  title: 'Alimi (Alimisolution) - Software Developer',
   description: 'Professional Full Stack Developer specializing in React, Next.js, Node.js, Express.js, Typescript and mobile app development using Expo',
+  icons: {
+    icon: '/favicon.png',
+    shortcut: '/favicon.png',
+    apple: '/favicon.png',
+  },
 }
 
 export default function RootLayout({
