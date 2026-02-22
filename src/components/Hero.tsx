@@ -134,7 +134,7 @@ export default function Hero() {
                 className=""
               >
                 <span className="text-xl md:text-2xl text-slate-600 dark:text-slate-300 font-medium">
-                  Full Stack Developer & Technical Educator
+                  Software Developer & Technical Educator
                 </span>
               </motion.div>
             </div>
