@@ -16,7 +16,6 @@ import {
   Smartphone,
   Briefcase,
   CheckCircle2,
-  ArrowRight,
   Star,
   Zap,
   ExternalLink
@@ -24,7 +23,7 @@ import {
 
 const whatsappNumber = '+2348080755931'
 const emailAddress = 'alimirosheed5000@gmail.com'
-const whatsappMessage = 'Hello! I want to build a Website or Mobile Application to promote and boost my online presence and meet my customers or I want to learn or make an enquiry. How can you help you?'
+const whatsappMessage = 'Hi Alimi! 👋 I found your portfolio and I\'m impressed with your work. I\'d like to discuss:\n\n💻 Web Development Project\n📱 Mobile App Development\n🎓 Training/Mentorship\n🤝 General Inquiry\n\nCould you share more about your services and availability? Looking forward to connecting!'
 const emailSubject = 'Project Inquiry - Portfolio Contact'
 const emailBody = 'Hello Alimi,\n\nI came across your portfolio and I am interested in discussing a potential project. I would like to:\n\n[ ] Build a Website or Mobile Application\n[ ] Learn web development skills\n[ ] Make an enquiry about your services\n[ ] Other: _______________\n\nPlease let me know your availability and next steps.\n\nLooking forward to hearing from you!\n\nBest regards,\n[Your Name]'
 
@@ -217,7 +216,6 @@ export default function Contact() {
                     className={`group inline-flex items-center space-x-3 bg-gradient-to-r ${method.color} text-white px-6 py-3 rounded-xl font-semibold hover:shadow-lg transition-all duration-300 transform hover:scale-105 mt-6`}
                   >
                     <span>{method.action}</span>
-                    <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
                   </a>
                 </div>
               </div>
@@ -355,7 +353,6 @@ export default function Contact() {
                 >
                   <MessageSquare className="w-5 h-5" />
                   <span>Start on WhatsApp</span>
-                  <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
                 </a>
                 
                 <a

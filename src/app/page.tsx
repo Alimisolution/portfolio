@@ -41,16 +41,6 @@ export default function Home() {
       </section>
 
       <Footer />
-
-      <button 
-        onClick={() => {
-          document.getElementById('home')?.scrollIntoView({ behavior: 'smooth' });
-        }}
-        className="fixed bottom-32 right-5 z-50 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white w-14 h-14 text-2xl flex justify-center items-center border-2 font-bold rounded-full shadow-lg transition-all duration-300 hover:scale-110"
-        aria-label="Scroll to top"
-      >
-        ↑
-      </button>
     </main>
   )
 }

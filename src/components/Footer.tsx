@@ -201,7 +201,6 @@ export default function Footer() {
                 className="inline-flex items-center space-x-2 bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-all duration-300 transform hover:scale-105"
               >
                 <span>Get Started</span>
-                <ArrowUp className="w-4 h-4" />
               </Link>
             </div>
           </motion.div>
@@ -222,17 +221,6 @@ export default function Footer() {
                 <span>All rights reserved.</span>
               </motion.div>
               
-              <motion.div
-                initial={{ opacity: 0, x: 20 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5 }}
-                className="flex items-center space-x-2 text-slate-400"
-              >
-                <span>Made with</span>
-                <Heart className="w-4 h-4 text-red-500" />
-                <span>using Next.js & TailwindCSS</span>
-              </motion.div>
             </div>
           </div>
         </div>

@@ -4,7 +4,6 @@ import { motion } from 'framer-motion'
 import Image from 'next/image'
 import Link from 'next/link'
 import { 
-  ArrowRight, 
   Download, 
   Star, 
   Code, 
@@ -13,7 +12,7 @@ import {
   Terminal,
   Globe,
   Sparkles,
-  ChevronDown
+  Heart
 } from 'lucide-react'
 
 export default function Hero() {
@@ -132,9 +131,8 @@ export default function Hero() {
               
               <motion.div
                 variants={itemVariants}
-                className="flex items-center space-x-3"
+                className=""
               >
-                <Terminal className="w-6 h-6 text-blue-600 dark:text-blue-400" />
                 <span className="text-xl md:text-2xl text-slate-600 dark:text-slate-300 font-medium">
                   Full Stack Developer & Technical Educator
                 </span>
@@ -180,7 +178,6 @@ export default function Hero() {
                 className="group relative inline-flex items-center space-x-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-xl font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
               >
                 <span>Start a Project</span>
-                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
                 <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-blue-600 to-purple-600 opacity-0 group-hover:opacity-100 blur-lg transition-opacity duration-300" />
               </Link>
               
@@ -189,7 +186,6 @@ export default function Hero() {
                 className="group inline-flex items-center space-x-3 border-2 border-blue-600 dark:border-blue-400 text-blue-600 dark:text-blue-400 px-8 py-4 rounded-xl font-semibold hover:bg-blue-600 hover:text-white dark:hover:bg-blue-400 dark:hover:text-slate-900 transition-all duration-300 transform hover:scale-105"
               >
                 <span>View Services</span>
-                <Star className="w-5 h-5 group-hover:rotate-12 transition-transform duration-300" />
               </Link>
             </motion.div>
 
@@ -284,7 +280,6 @@ export default function Hero() {
             className="flex flex-col items-center space-y-2 text-slate-400"
           >
             <span className="text-sm">Scroll to explore</span>
-            <ChevronDown className="w-5 h-5" />
           </motion.div>
         </motion.div>
       </div>

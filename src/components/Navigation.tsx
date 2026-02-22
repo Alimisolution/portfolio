@@ -12,7 +12,6 @@ import {
   User, 
   Briefcase, 
   Mail, 
-  ChevronDown,
   Github,
   Linkedin
 } from 'lucide-react'

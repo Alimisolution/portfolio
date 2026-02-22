@@ -16,7 +16,6 @@ import {
   Clock, 
   Star,
   CheckCircle2,
-  ArrowRight,
   Zap,
   Award,
   TrendingUp,
@@ -269,7 +268,6 @@ export default function Services() {
                     className="group inline-flex items-center space-x-2 mt-6 text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 font-semibold transition-all duration-300"
                   >
                     <span>Learn More</span>
-                    <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
                   </Link>
                 </div>
               </div>
@@ -388,7 +386,6 @@ export default function Services() {
                   className="group inline-flex items-center space-x-3 bg-white text-blue-600 px-8 py-4 rounded-xl font-semibold hover:bg-blue-50 transition-all duration-300 transform hover:scale-105 shadow-lg"
                 >
                   <span>Get In Touch</span>
-                  <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
                 </Link>
                 
                 <Link

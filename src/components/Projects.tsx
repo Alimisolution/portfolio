@@ -11,7 +11,6 @@ import {
   Smartphone, 
   Database,
   Zap,
-  ArrowRight,
   Star,
   TrendingUp
 } from 'lucide-react'
@@ -233,7 +232,6 @@ export default function Projects() {
                     className="group inline-flex items-center space-x-2 text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 font-semibold transition-all duration-300"
                   >
                     <span>View Project</span>
-                    <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
                   </a>
                 </div>
               </div>
@@ -302,14 +300,12 @@ export default function Projects() {
               className="group inline-flex items-center space-x-3 bg-white text-blue-600 px-8 py-4 rounded-xl font-semibold hover:bg-blue-50 transition-all duration-300 transform hover:scale-105 shadow-lg"
             >
               <span>Start a Project</span>
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
             </Link>
             <Link
               href="/services"
               className="group inline-flex items-center space-x-3 border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-white hover:text-blue-600 transition-all duration-300 transform hover:scale-105"
             >
               <span>View Services</span>
-              <Star className="w-5 h-5 group-hover:rotate-12 transition-transform duration-300" />
             </Link>
           </div>
         </div>
