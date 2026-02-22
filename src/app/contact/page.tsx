@@ -100,15 +100,6 @@ export default function Contact() {
     
     // Try to open the email client
     window.location.href = mailtoLink
-    
-    // Fallback: copy email to clipboard
-    setTimeout(() => {
-      navigator.clipboard.writeText(email).then(() => {
-        alert('Email address copied to clipboard: ' + email)
-      }).catch(() => {
-        alert('Please email: ' + email)
-      })
-    }, 1000)
   }
 
   const toggleTheme = () => {
