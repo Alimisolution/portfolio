@@ -125,6 +125,9 @@ export default function Hero() {
                 <span className="block bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
                   Alimi AbdulRosheed
                 </span>
+                <span className="block text-sm md:text-base text-slate-600 dark:text-slate-400 mt-2">
+                  (Alimisolution)
+                </span>
               </motion.h1>
               
               <motion.div
@@ -226,7 +229,7 @@ export default function Hero() {
               <div className="relative w-80 h-80 lg:w-96 lg:h-96">
                 <div className="absolute inset-0 bg-gradient-to-tr from-blue-600 to-purple-600 rounded-full opacity-10" />
                 <Image
-                  src="/images/me-2.png"
+                  src="/images/me-2.jpeg"
                   alt="Alimi AbdulRosheed"
                   fill
                   className="relative rounded-full object-cover ring-4 ring-white dark:ring-slate-800 shadow-2xl"

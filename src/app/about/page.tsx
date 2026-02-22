@@ -33,7 +33,7 @@ export default function About() {
           className="bg-white dark:bg-slate-800 rounded-3xl shadow-xl p-4 md:p-8 flex flex-col md:flex-row items-center gap-8"
         >
           <img 
-            src="/images/me-2.png" 
+            src="/images/me-2.jpeg" 
             alt="Alimi AbdulRosheed" 
             className="w-32 h-32 rounded-full object-cover ring-4 ring-blue-400 dark:ring-blue-600 shadow-xl" 
           />
